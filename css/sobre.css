@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    background: #ff007f;
+    color: black;
+    display: inline-block;
+    padding: 10px;
+    box-shadow: 5px 5px 0px #00ffff;
+}
+
+section {
+    width: 400px;
+    margin: 30px auto;
+    text-align: left;
+    border-left: 2px solid #ff007f;
+    padding-left: 15px;
+}
+
+/* Container das fotos */
+.galeria {
+    width: 400px;
+    margin: 0 auto;
+}
+
+/* Faz as imagens ficarem lado a lado */
+figure {
+    display: inline-block;
+    margin: 10px;
+    width: 150px;
+}
+
+img {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #333;
+    object-fit: cover;
+}
+
+/* Estilo da legenda */
+figcaption {
+    color: #ff007f;
+    font-size: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.btn-voltar {
+    color: #ff007f;
+    text-decoration: none;
+    border: 1px solid #ff007f;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.btn-voltar:hover {
+    background-color: #ff007f;
+    color: black;
+}
+
+.rosa { color: #ff007f; }
+.ciano { color: #00ffff; }
+
+/* TABELA */
+table {
+    margin: 40px auto;
+    width: 100%;
+    max-width: 400px;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+th {
+    color: #ff007f; /* Rosa */
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #222;
+    width: 40%;
+}
+
+td {
+    color: #00ffff; /* Ciano */
+    text-align: right;
+    padding: 10px;
+    border-bottom: 1px solid #222;
+}

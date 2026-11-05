@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: "Courier New", monospace;
+    margin: 0;
+    height: 100vh; /* Ocupa a altura total da tela */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center;     /* Centraliza horizontalmente */
+    text-align: center;
+}
+
+/* Título com efeito visual simples */
+h1 {
+    font-size: 45px;
+    margin: 0;
+    text-shadow: 2px 2px #ff007f;
+}
+
+/* Texto rosa centralizado */
+.subtitulo {
+    color: #ff007f;
+    letter-spacing: 5px;
+    font-size: 12px;
+    margin: 5px 0 50px 0; /* Espaçamento para não grudar no menu */
+    font-weight: bold;
+}
+
+/* Menu de navegação simplificado */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 20px 0;
+}
+
+nav a {
+    color: #00ffff;
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: 1px solid transparent;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    border-bottom: 1px solid #00ffff;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    bottom: 30px;
+    color: #333;
+    font-size: 10px;
+}

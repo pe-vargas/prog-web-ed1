@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #ff007f;
+    border: 2px solid #ff007f;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+/* Lista centralizada e simples */
+.lista {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* Itens da lista */
+.item, .bloqueado {
+    display: block;
+    padding: 15px;
+    border-bottom: 1px solid #333;
+    text-decoration: none;
+    color: #00ffff;
+}
+
+.item:hover {
+    background-color: #111;
+}
+
+.bloqueado {
+    color: #444;
+    font-style: italic;
+}
+
+/* Pequena descrição embaixo do nome */
+.desc {
+    display: block;
+    color: #888;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+/* Botão de voltar */
+.btn {
+    display: inline-block;
+    margin-top: 60px;
+    color: #ff007f;
+    text-decoration: none;
+    border: 1px solid #ff007f;
+    padding: 10px 20px;
+}
+
+.btn:hover {
+    background-color: #ff007f;
+    color: black;
+}
