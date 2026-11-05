@@ -10,11 +10,19 @@ Reúne as folhas de estilo externas do site, uma para cada página.
 
 | Arquivo | Utilizado em | Função |
 |---|---|---|
-| `home.css` | `index.html` | Estilos da página inicial e do menu de navegação |
-| `sobre.css` | `sobre.html` | Estilos da página sobre o autor |
-| `trabalhos.css` | `trabalhos.html` | Estilos da página de trabalhos |
-| `forms.css` | `forms.html` | Estilos da página de contato e do formulário |
-| `nexgen.css` | `ed01.html` | Estilos da página temática |
+| `home.css` | `index.html` | Centraliza o conteúdo na tela, estiliza o título com sombra rosa e o menu de navegação em ciano |
+| `sobre.css` | `sobre.html` | Título em destaque, bloco de texto com borda lateral rosa e galeria de imagens lado a lado |
+| `trabalhos.css` | `trabalhos.html` | Lista de trabalhos centralizada, com item ativo, item bloqueado e descrição |
+| `forms.css` | `forms.html` | Formulário centralizado, campos escuros com borda rosa e botão de envio |
+| `nexgen.css` | `ed01.html` | Estilo de terminal da página temática: cabeçalho, título com efeito glitch, tabela, blocos de imagem, lista de fontes e rodapé |
+
+## Identidade visual
+
+Todas as páginas compartilham a mesma base:
+
+- Fundo preto;
+- Fonte monoespaçada;
+- Destaques em rosa (`#ff007f`) e ciano (`#00ffff`).
 
 ## Funcionamento
 
