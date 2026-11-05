@@ -15,7 +15,7 @@ O trabalho consiste em um website estático pessoal, de múltiplas páginas inte
 
 O site está publicado com GitHub Pages:
 
-**https://pe-vargas.github.io/prog-web-ed1/**
+**https://pe-vargas.github.io/prog-web-ed1/index.html**
 
 ## Objetivos
 
